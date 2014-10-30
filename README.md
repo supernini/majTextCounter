@@ -61,4 +61,4 @@ By default the plugin add the following element after the input/textarea:
 
 ## Authors
 
-[miseajour](http://www.miseajour.net)
+[miseajour.net](http://www.miseajour.net)
