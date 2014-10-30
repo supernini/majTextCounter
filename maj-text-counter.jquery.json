@@ -6,7 +6,7 @@
   "license":"MIT",
   "name": "maj-text-counter",
   "description": "A jQuery plugin for counting and limiting characters/words on text input, or textarea and element using .val() method.",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "keywords":["jquery","input","textarea","counter","plugin", "jquery-pluginl"],
   "repository": {
     "type":"git",
