@@ -1,25 +1,15 @@
 {
-  "authors": {
-    "name": "miseajour (https://github.com/supernini/majTextCounter)",
-    "url": "http://www.miseajour.net"
+  "private": true,
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-coffee": "~0.10.1",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-watch": "^0.6.1"
   },
-  "license":"MIT",
-  "name": "maj-text-counter",
-  "description": "A jQuery plugin for counting and limiting characters/words on text input, or textarea and element using .val() method.",
-  "version": "1.0.2",
-  "keywords":["jquery","input","textarea","counter","plugin", "jquery-pluginl"],
-  "repository": {
-    "type":"git",
-    "url": "https://github.com/supernini/majTextCounter.git"
-  },
-  "bugs":{"url":"https://github.com/supernini/majTextCounter/issues"},
-  "main": [
-    "./javascripts/maj-text-counter.js",
-    "./stylesheets/maj-text-counter.css.css"
-  ],
-  "files":["./javascripts/maj-text-counter.js","./stylesheets/maj-text-counter.css.css","README.md"],
-	"download": "https://github.com/supernini/majTextCounter/archive/master.zip",
-	"dependencies": {
-		"jquery": ">=1.4"
-	}
+  "scripts": {
+    "test": "grunt travis --verbose"
+  }
 }
