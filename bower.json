@@ -1,11 +1,30 @@
 {
   "name": "majTextCounter",
   "version": "1.0.0",
-  "main": [ "./javascripts/maj-text-counter.js","./stylesheets/maj-text-counter.css.css" ],
-	"license": "MIT",
-	"authors": [
-		"miseajour (https://github.com/supernini/majTextCounter)"
-	],
-	"description": "A jQuery plugin for counting and limiting characters/words on text input, or textarea and element using .val() method.",
-  "dependencies": { "jquery": ">=1.7.0" }
+  "main": [
+    "./javascripts/maj-text-counter.js",
+    "./stylesheets/maj-text-counter.css.css"
+  ],
+  "license": "MIT",
+  "authors": [
+    "miseajour (https://github.com/supernini/majTextCounter)"
+  ],
+  "description": "A jQuery plugin for counting and limiting characters/words on text input, or textarea and element using .val() method.",
+  "dependencies": {
+    "jquery": ">=1.7.0"
+  },
+  "homepage": "https://github.com/supernini/majTextCounter",
+  "keywords": [
+    "jQuery",
+    "input",
+    "textarea",
+    "counter"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
